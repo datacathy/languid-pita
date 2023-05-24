@@ -251,7 +251,7 @@ export default function Home({ articles }) {
     <>
       <Head>
         <title>
-          Spencer Sharp - Software designer, founder, and amateur astronaut
+          Larry Moss -- Professor of Mathematics, Indiana University
         </title>
         <meta
           name="description"
@@ -259,13 +259,23 @@ export default function Home({ articles }) {
         />
       </Head>
       <Container className="mt-9">
-        <div className="max-w-2xl">
-          <h1 className="text-4xl font-bold tracking-tight text-zinc-800 dark:text-zinc-100 sm:text-5xl">
-            Larry Moss, Professor of Mathematics
+        <div className="max-w-3xl">
+          <h1 className="text-4xl mb-2 font-bold tracking-tight text-zinc-800 dark:text-zinc-100 sm:text-5xl">
+            Lawrence S. Moss
           </h1>
-          <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
-            Indiana University 
+          <p className="mt-4 mb-2 text-base text-zinc-600 dark:text-zinc-400 text-xl">
+            Professor of Mathematics, Indiana University
+            </p>
+            <p className="mt-2 mb-2 text-base text-zinc-600 dark:text-zinc-400 text-xl">
+            Program Director, Pure and Applied Logic
           </p>
+            <p className="mt-2 mb-2 text-base text-zinc-600 dark:text-zinc-400 text-xl">
+            Adjunct Professor of Computer Science, Informatics, Linguistics, and Philosophy
+          </p>
+            <p className="mt-2 mb-2 text-base text-zinc-600 dark:text-zinc-400 text-xl">
+            Program Member, Cognitive Science and Computational Linguistics
+          </p>
+          
           <div className="mt-6 flex gap-6">
             <SocialLink
               href="https://twitter.com"
